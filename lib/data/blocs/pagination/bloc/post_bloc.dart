@@ -1,9 +1,10 @@
 import 'dart:convert';
 
 import 'package:meta/meta.dart';
-import 'package:paginate/data/blocs/models/post.dart';
-import 'package:paginate/data/blocs/post_event.dart';
-import 'package:paginate/data/blocs/post_state.dart';
+import 'package:paginate/data/blocs/pagination/bloc/post_event.dart';
+import 'package:paginate/data/blocs/pagination/bloc/post_state.dart';
+import 'package:paginate/data/blocs/pagination/models/post.dart';
+
 import 'package:rxdart/rxdart.dart';
 import 'package:http/http.dart' as http;
 import 'package:bloc/bloc.dart';

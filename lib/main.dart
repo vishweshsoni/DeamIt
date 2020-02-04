@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:http/http.dart' as http;
 
-import 'data/blocs/models/post.dart';
-import 'data/blocs/post_bloc.dart';
-import 'data/blocs/post_event.dart';
-import 'data/blocs/post_state.dart';
-import 'data/blocs/simple_bloc_delegate.dart';
+import 'data/blocs/pagination/bloc/post_bloc.dart';
+import 'data/blocs/pagination/bloc/post_event.dart';
+import 'data/blocs/pagination/bloc/post_state.dart';
+import 'data/blocs/pagination/bloc/simple_bloc_delegate.dart';
+import 'data/blocs/pagination/models/post.dart';
 
 void main() {
   BlocSupervisor.delegate = SimpleBlocDelegate();

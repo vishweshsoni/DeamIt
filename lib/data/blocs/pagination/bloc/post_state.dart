@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:paginate/data/blocs/models/post.dart';
+import 'package:paginate/data/blocs/pagination/models/post.dart';
 abstract class PostState extends Equatable {
   const PostState();
 
